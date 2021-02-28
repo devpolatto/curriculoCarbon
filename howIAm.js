@@ -1,5 +1,6 @@
 function aboutMe() {
-    const name = "Angelo Vinicius Marinho Polatto"
+    const name = "Angelo Vinicius Marinho Polatto",
+    const localization = "Recife-PE",
     const contact = {
         Email: "polatto.xcode.job@gmail.com",
         Phone: "(81) 99976-6539",
@@ -10,15 +11,15 @@ function aboutMe() {
         {
             course: "Redes de Computadores",
             institution: "Centro Universitário Brasileiro",
-            period: "02/2018 - 06/2020"
+            period: "02/2018 - 06/2021"
         },
     ];
 
     let workExperience = [
         {
-            company: "NIXCOMM",
-            office: "Técnico de TI",
-            period: "10/2019 - atualmente"
+            company: "NTRACE TECNOLOGIA",
+            office: "Técnico de suporte de sistemas digitais pleno II",
+            period: "10/2019 - atualmente",
         },
         {
             company: "Casa Sabor",
@@ -33,15 +34,28 @@ function aboutMe() {
     ];
 
     let skills = {
-        programmingLanguages: "JavaScript, Python",
-        markupStyles: "HTML5, CSS",
-        dataBases: "SQLite, MongoDB",
-        versionControl: "Git, GitHub",
-        frameworks: "Express, ReactJS",
-        firewall: "Fortigate",
-        accessPoint: "FortiAP, Cambium",
-        CFTV: "Hik-vision, Intelbras",
-        tools: "Photoshop, Insomnia"
+        Development: {
+            FrontEnd: {
+                ProgrammingLanguages: "JavaScript",
+                MarkupStyles: "HTML5, CSS",
+                Library: "ReactJS, Styled-components"
+            },
+            BackEnd: {
+                ProgrammingLanguages: "JavaScript, Python",
+                Library: "Express"
+            },
+            DataBase: {
+                Relational: "SQLite, Postegres",
+                NoSQL: "Mongo"
+            }
+        },
+        VersionControl: "Git, GitHub",
+        Networks: {
+            Firewall: "Fortigate",
+            CFTV: "Hik-vision, Intelbras",
+            Monitoring: "PRTG, ZABBIX"
+        }
+        
     };
 
     let languages = [
